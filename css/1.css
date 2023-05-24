@@ -1,0 +1,149 @@
+* {
+  border: 0px solid black;
+}
+.mag {
+  margin: 10px;
+}
+.wb {
+  margin: 10px 10px;
+}
+.flex {
+  display: flex;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+/* 
+flex */
+.bj {
+  width: 100%;
+  padding: 20px 0px;
+}
+.bs {
+  width: 100%;
+  padding: 20px 0px;
+  background: rgb(255, 255, 255);
+}
+.body {
+  background: rgb(255, 255, 255);
+  padding: 0px;
+  margin: 0px;
+}
+.bjs {
+  background: #ffffff;
+}
+.bjsh {
+  background: #f3f3f3;
+}
+#jl {
+  height: ;
+  background: url(../11.jpg);
+}
+.bk {
+  max-width: 700px;
+  margin: 0 auto 30px auto;
+  padding: 15px;
+  border: 1px solid #dcd9d9;
+  text-align: left;
+}
+/* dj */
+.heading {
+  position: relative;
+  display: inline-block;
+  font-size: 2em;
+  font-weight: 300;
+  margin: 0 0 30px 0;
+}
+.heading:after {
+  position: absolute;
+  content: "";
+  top: 100%;
+  height: 1px;
+  width: 50px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background: #3498db;
+}
+#lead-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(33, 125, 187, 0.8);
+  z-index: 1;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  padding: 10px 10%;
+  background-color: rgb(0, 0, 0, 0.1);
+}
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  margin-left: 3px;
+}
+.navc a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  margin-left: 3px;
+}
+.xhx {
+  text-decoration: none;
+}
+h {
+  background: rgb(41, 40, 40);
+  width: 100%;
+  color: white;
+}
+.portrait {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+}
+h3bj {
+  background: rgb(41, 40, 40);
+  width: 100px;
+  color: white;
+  padding: 2px 20px;
+}
+.bj {
+  margin: 0 10px;
+}
+.dx {
+  width: 300px;
+  height: 300px;
+}
+.dx2 {
+  width: 100%;
+  height: 100%;
+}
+
+.bj1 {
+  margin: 50px 30px;
+}
+.danner {
+  width: 100%;
+  height: 40vh;
+}
+
+.danner img {
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+}
